@@ -19,7 +19,7 @@ jobs:
 
             - name: Create a readme file
               run: |
-                 echo '# project Title' > README.md
+                 echo '#websites' > README.md
                  echo "" >> README.md
                  echo "A brief description of the project. " >> README.md
                   # Add more content as needed using additional echo commands
