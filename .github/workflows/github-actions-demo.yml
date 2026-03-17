@@ -25,8 +25,8 @@ jobs:
                   # Add more content as needed using additional echo commands
             - name: Commit and push ReadMe
               run: |
-                 git config --global user.name "github-actions[bot]"
-                 git config --global user.email "github-actions[bot]@users.noreply.github.com"
+                 git config --global user.name "DICKSON39"
+                 git config --global user.email "dicksonndumia19@gmail.com"
                  git add README.md
                   git commit -m "Auto-generate README"
                   git push
