@@ -16,3 +16,11 @@ jobs:
               run: |
                  ls ${{github.workspace}}
             - run: echo "🍏 This job's status is ${{ job.status }}."
+
+            - name: Create a readme file
+              run: |
+                 echo '# project Title' > README.md
+                 echo "" >> README.md
+                 echo "A brief description of the project. " >> README.md
+                  # Add more content as needed using additional echo commands
+                
